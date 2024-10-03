@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+#myid1{
+    background-color: red;
+    font-size: 50px;
+}
+#myid2{
+    background-color: green;
+    font-size: 50px;
+}
+
+.myclass{
+    color:yellow;
+}
+/* div p{
+    background-color: purple;
+    font-size:20px;
+    color:white;
+} */
+ /* div > p{
+    background-color: blue;
+    color:white;
+    font-size: 50px;
+ } */
+  /* Adjacent sibling */
+  /* div + p{
+    background-color: blue;
+    color:white;
+  } */
+    div ~ p{
+    background-color: blue;
+    color:white;
+  } 
