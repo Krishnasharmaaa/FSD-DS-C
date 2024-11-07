@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    border: 2px double red;
+}
+.header, .content, .footer{
+    width:100%;
+}
+.header{
+    
+    height:50px;
+    background-color: aquamarine;
+}
+.content{
+    
+    height:80%;
+    background-color: green;
+
+}
+.footer{
+    height:80%;
+    background-color: grey;
+
+}
